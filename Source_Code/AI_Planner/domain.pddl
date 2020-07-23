@@ -72,12 +72,12 @@
    )
    (:action notification_cylinderbooking
         :parameters ( ?r - room ?m - message )
-        :precondition (and  (>(weight ?r) (weight_threshold)))
+        :precondition (and  (<(weight ?r) (weight_threshold)))
         :effect (and  (send ?m) (load-msg))
    )
    (:action no_notification_cylinderbooking
         :parameters ( ?r - room ?m - message )
-        :precondition (and  (<(weight ?r) (weight_threshold)))
+        :precondition (and  (>(weight ?r) (weight_threshold)))
         :effect (and  (send ?m) (load-msg))
    )
       )
