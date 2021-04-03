@@ -7,7 +7,7 @@ booking of new cylinder and maintaining the room temperature constant involving 
 
 
 **Steps involved:**
-Implemented a safety monitoring system using ubiquitous architecture. 
-Simulated the restaurant kitchen environment using simulatedIoT. 
-Communicated the data to Raspberry Pi and clients with an indirect communication using MQTT protocol.
-Made the system work autonomous without human intervention using AI planning with PDDL logic.
+1. Implemented a safety monitoring system using ubiquitous architecture. 
+2. Simulated the restaurant kitchen environment using simulatedIoT. 
+3. Communicated the data to Raspberry Pi and clients with an indirect communication using MQTT protocol.
+4. Made the system work autonomous without human intervention using AI planning with PDDL logic.
